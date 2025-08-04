@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+  height: auto;
+}
+
+.netflix-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  z-index: 999;
+}
+
+.logo {
+  font-family: 'Bebas Neue', 'Impact', sans-serif;
+  font-size: 48px;
+  color: #E50914;
+  text-shadow: 2px 2px 4px black;
+  letter-spacing: 2px;
+}
+
+.sign-in {
+  background-color: #E50914;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sign-in:hover {
+  background-color: #f40612;
+}
+page1{
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 180px;
+  padding: 0 20px;
+}
+
+.main-content h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.main-content h4 {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.main-content h5 {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.email-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.email-container input[type="email"] {
+  font-size: 1em;
+  padding: 16px 20px;
+  width: 320px;
+  max-width: 90%;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  border: 1px solid #ccc;
+}
+
+.email-container input::placeholder {
+  color: #ccc;
+}
+
+.email-container button {
+  background-color: #E50914;
+  color: white;
+  font-size: 20px;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.email-container button:hover {
+  background-color: #f40612;
+}
+.start-button {
+  background-color: #E50914;
+  color: white;
+  font-size: 20px;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.start-button:hover {
+  background-color: #f40612;
+}}
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 10px;
+  padding: 20px;
+}
+
+
+.carousel::-webkit-scrollbar {
+  display: none; 
+}
+
+.carousel img {
+  height: 300px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.carousel img:hover {
+  transform: scale(1.1);
+}
+h3{
+  color: white;
+  text-align: left;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px black;
+  gap: 10px;
+}
+.features-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px black;
+}
+
+
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+
+.card {
+  background: linear-gradient(to bottom right, #1a1a40, #1a0022);
+  border-radius: 15px;
+  padding: 1.5rem;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 1.9rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.card p {
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.faq-section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.faq-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.faq {
+  background-color: #333;
+  margin-bottom: 0.5rem;
+  border: 1px solid #444;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.question h3 {
+  margin: 0;
+  font-size: 1.9rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #222;
+  padding: 0 1rem;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+}
+
+.answer p {
+  margin: 1rem 0;
+}
+
+/* Active state */
+.faq.active .answer {
+  max-height: 200px;
+  padding: 1rem;
+}
+
+.faq.active .icon {
+  transform: rotate(45deg); /* changes + to × style */
+}
